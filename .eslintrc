@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": "react-app",
+  "globals": {
+    "Promise": false,
+    "process": {},
+    "history": {},
+    "FB": {}
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "semi": ["error", "never"],
+    "no-console": 0
+  }
+}
